@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #e3eae3; /* Verde */
+  color: #05ac8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white; /* Cor de fundo do container */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra do container */
+  padding: 20px; /* Espaçamento interno */
+  max-width: 400px; /* Largura máxima do container */
+  margin: 20px auto; /* Centraliza o container */
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-festival {
+  max-width: 80px; /* Ajuste o tamanho conforme necessário */
+}
+.logo-e2carbon {
+  max-width: 130px; /* Ajuste o tamanho conforme necessário */
+}
+.logo-ipass {
+  max-width: 80px; /* Ajuste o tamanho conforme necessário */
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+}
+
+p {
+  margin: 10px 0 20px;
+  font-size: 0.9em;
+}
+
+.input-group {
+  margin-bottom: 15px; /* Espaçamento entre os grupos de input */
+}
+
+.input-group label {
+  display: block; /* Faz o label ocupar toda a largura */
+  margin-bottom: 5px; /* Espaçamento abaixo do label */
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.input-group input {
+  width: 100%; /* Largura total do input */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda do input */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+.remember-me {
+  display: flex; /* Alinha os itens em linha */
+  align-items: center; /* Alinha verticalmente */
+  justify-content: space-between; /* Espaça os itens */
+}
+
+.remember-me a {
+  color: #05ac8c; /* Cor do link */
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+.remember-me a:hover {
+  text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+#entrar {
+  background-color: #05ac8c; /* Cor do botão */
+  color: white; /* Cor do texto do botão */
+  border: none; /* Remove borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  padding: 10px; /* Espaçamento interno */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  width: 100%; /* Largura total do botão */
+  transition: background-color 0.3s; /* Efeito de transição */
+}
+
+#entrar:hover {
+  background-color: #048f7a; /* Cor ao passar o mouse */
+}
+
+.ipass {
+  display: flex; /* Adiciona flexbox */
+  justify-content: center; /* Centraliza o ícone horizontalmente */
+  margin-top: 20px; /* Ajusta o espaçamento acima */
+  width: 100%; /* Garante que ocupe toda a largura do container */
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #05ac8c; /* Nova cor */
+  color: #ffffff; /* Texto branco */
+  padding: 0.5px; /* Ajuste o padding */
+  text-align: center;
+  position: fixed; /* Fixa o footer na parte inferior */
+  bottom: 0; /* Alinha o footer na parte inferior */
+  left: 0; /* Alinha o footer à esquerda */
+  width: 100%; /* Largura total */
+  z-index: 1000; /* Garante que o footer fique acima de outros elementos */
+}
+
+.footer-content {
+  max-width: 1200px; /* Largura máxima do conteúdo */
+  margin: 0 auto; /* Centraliza o conteúdo */
+  font-size: 0.8em; /* Tamanho da fonte reduzido */
+}
+
+.footer-links {
+  margin: 10px 0;
+  display: flex; /* Usar flexbox para disposição */
+  justify-content: center; /* Centraliza os links */
+  flex-wrap: wrap; /* Permite que os links quebrem para a próxima linha */
+}
+
+.footer-links a {
+  color: #ffffff; /* Texto branco */
+  text-decoration: none; /* Remove sublinhado */
+  margin: 0 10px; /* Espaçamento entre os links */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+.footer-links .instagram-icon {
+  margin-left: 10px; /* Espaçamento à esquerda do ícone */
+  color: #ffffff; /* Cor do ícone */
+  font-size: 20px; /* Tamanho do ícone */
+}
+
+.footer-rights {
+  margin-top: 10px; /* Espaçamento acima do texto de direitos autorais */
+  font-size: 0.7em; /* Tamanho da fonte reduzido */
+}
+
+.top-container {
+  background-color: #05ac8c; /* Cor de fundo */
+  display: flex;
+  justify-content: space-between; /* Espaça os itens uniformemente */
+  align-items: center; /* Alinha verticalmente */
+  padding: 10px 20px; /* Espaçamento interno */
+  position: fixed; /* Fixa o container na parte superior */
+  top: 0; /* Alinha o container ao topo da página */
+  left: 0; /* Alinha o container à esquerda */
+  width: 100%; /* Largura total */
+  z-index: 1000; /* Garante que fique acima de outros elementos */
+}
+
+.top-content {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  flex-grow: 1; /* Permite que o conteúdo ocupe o espaço disponível */
+}
+
+.top-buttons {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  margin-left: auto; /* Move os botões para a direita */
+}
+
+.top-buttons i {
+  color: white; /* Cor do ícone de busca */
+  margin-right: 15px; /* Espaçamento à direita do ícone */
+}
+
+.btn-cadastrar,
+.btn-entrar {
+  background-color: white; /* Cor de fundo dos botões */
+  color: #05ac8c; /* Cor do texto dos botões */
+  border: none; /* Remove borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  padding: 10px 15px; /* Espaçamento interno */
+  margin-left: 10px; /* Espaçamento entre os botões */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+}
+
+.btn-cadastrar:hover,
+.btn-entrar:hover {
+  background-color: #e3eae3; /* Cor ao passar o mouse */
+}
+
+.input-with-icon {
+  position: relative; /* Para posicionar o ícone */
+}
+
+.input-with-icon i {
+  position: absolute; /* Posiciona o ícone */
+  right: 10px; /* Ajuste a posição horizontal para a direita */
+  top: 50%; /* Centraliza verticalmente */
+  transform: translateY(-50%); /* Ajusta a posição vertical */
+  color: #05ac8c; /* Cor do ícone */
+}
+
+.input-container {
+  width: 100%; /* Ajusta a largura para ocupar todo o espaço disponível */
+  padding: 10px; /* Adiciona um pouco de preenchimento */
+  box-sizing: border-box; /* Inclui o preenchimento na largura total */
+}
