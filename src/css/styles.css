@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Arial", sans-serif;
-  background-color: #e3eae3; /* Verde */
+  background-color: #e3eae3; /* branco */
   color: #05ac8c;
   display: flex;
   justify-content: center;
@@ -152,7 +152,7 @@ footer {
   display: flex;
   justify-content: space-between; /* Espaça os itens uniformemente */
   align-items: center; /* Alinha verticalmente */
-  padding: 10px 20px; /* Espaçamento interno */
+  padding: 20px 20px; /* Espaçamento interno */
   position: fixed; /* Fixa o container na parte superior */
   top: 0; /* Alinha o container ao topo da página */
   left: 0; /* Alinha o container à esquerda */
@@ -171,28 +171,6 @@ footer {
   align-items: center; /* Alinha verticalmente */
   margin-left: auto; /* Move os botões para a direita */
 }
-
-.top-buttons i {
-  color: white; /* Cor do ícone de busca */
-  margin-right: 15px; /* Espaçamento à direita do ícone */
-}
-
-.btn-cadastrar,
-.btn-entrar {
-  background-color: white; /* Cor de fundo dos botões */
-  color: #05ac8c; /* Cor do texto dos botões */
-  border: none; /* Remove borda */
-  border-radius: 5px; /* Bordas arredondadas */
-  padding: 10px 15px; /* Espaçamento interno */
-  margin-left: 10px; /* Espaçamento entre os botões */
-  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
-}
-
-.btn-cadastrar:hover,
-.btn-entrar:hover {
-  background-color: #e3eae3; /* Cor ao passar o mouse */
-}
-
 .input-with-icon {
   position: relative; /* Para posicionar o ícone */
 }
